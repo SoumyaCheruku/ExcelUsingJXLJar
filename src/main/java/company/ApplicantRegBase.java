@@ -16,7 +16,7 @@ public class ApplicantRegBase {
 	//@Test
 	@BeforeMethod
 	public void start() {
-
+		//comments
 		System.setProperty("webdriver.chrome.driver", "//home//sbv6//Downloads//chromedriver");
 		driver = new ChromeDriver();
 		driver.get("http://192.168.2.245:8181");
